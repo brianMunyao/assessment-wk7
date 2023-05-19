@@ -40,6 +40,16 @@ class AdminMenuPage
                 'icon_url' => 'dashicons-list-view',
                 'position' => 100
             ],
+            [
+                'page_title' => 'Create employees',
+                'menu_title' => 'Create employees',
+                'capability' => 'manage_options',
+                'menu_slug' => 'create_employees',
+                'callback' => [$this->callbacks, 'create_employees_cb'],
+                'icon_url' => 'dashicons-list-view',
+                'position' => 100
+            ],
+
 
         ];
     }
@@ -63,5 +73,14 @@ class AdminMenuPage
                 'callback' => [$this->callbacks, 'create_employees_cb']
             ]
         ];
+
+        // add_submenu_page(
+        //     'view_employees',
+        //     'Register Employee',
+        //     'Register Employee',
+        //     'manage_options',
+        //     'register_employee',
+        //     [$this->callbacks, 'create_employees_cb']
+        // );
     }
 }

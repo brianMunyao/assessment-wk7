@@ -13,6 +13,7 @@ class Init
         return [
             Api\SettingsApi::class,
             Pages\AdminMenuPage::class,
+            Pages\ManageEmployees::class
         ];
     }
 

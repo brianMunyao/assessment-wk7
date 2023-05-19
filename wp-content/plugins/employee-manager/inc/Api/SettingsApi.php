@@ -66,6 +66,7 @@ class SettingsApi
             );
         }
 
+
         // foreach ($this->admin_subpages as $subpage) {
         //     add_submenu_page(
         //         $subpage['parent_slug'],
