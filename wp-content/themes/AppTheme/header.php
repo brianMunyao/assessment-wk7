@@ -26,11 +26,11 @@
         }
 
         .app-container {
-            padding: 20px;
+            padding: 30px 100px;
         }
 
         footer {
-            padding: 20px;
+            padding: 20px 100px;
             opacity: .4;
         }
     </style>

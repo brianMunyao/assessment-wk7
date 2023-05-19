@@ -71,7 +71,7 @@ get_header(); ?>
 
     table {
         border-collapse: collapse;
-        width: max-content;
+        width: 100%;
         margin: 10px 10px 10px 0;
     }
 
@@ -83,6 +83,7 @@ get_header(); ?>
 
     td,
     th {
+        text-align: left;
         padding: 10px;
     }
 
