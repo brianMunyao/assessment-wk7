@@ -12,7 +12,7 @@ add_action('wp_enqueue_scripts', 'enqueue_scripts');
  * Assessment 8
  */
 global $allowed_attempts;
-$allowed_attempts = 2;
+$allowed_attempts = 5;
 
 global $time_blocked;
 $time_blocked = 3 * 60; // 3 mins (180 seconds) blocked
